@@ -31,7 +31,7 @@ class(states)
 names(states)
 
 # read in csv with state names to abbreviations 
-state_abbrev <- read.csv(paste(my_dir, "states.csv", sep= ""))
+state_abbrev <- read.csv("states.csv")
 
 # Merge states spatial polygons data frame with state_abbrev data frame
 states <- merge(states, state_abbrev, by.x = "NAME", by.y = "State")
