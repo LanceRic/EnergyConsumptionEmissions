@@ -15,6 +15,6 @@ To do:
 
 3. Add popup graphs for second tab.  These popup graphs will show the time series data for the state that is clicked and the chosen emission and source types.
 
-4. Find other sources of Energy information.  Possibilities are the Department of Energy.
+4. Find other sources of Energy information.  Possibilities include the Department of Energy.
 
 5. Perform more research on the data that I am presenting, so I can explain how the EIA is choosing which power plant to present the surveys to each month.  This effort will also uncover other important details of the data that I am visualizing in this app.
