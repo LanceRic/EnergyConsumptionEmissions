@@ -1,5 +1,8 @@
 Energy Consumption and Emissions README
 
+Webpage for app:
+https://newcollegefloridagis.shinyapps.io/explorepowerplants/
+
 This Shiny/Leaflet app utilizes data obtained from U.S. EIA (Energy Information Administration) to create maps of
 
 1. Monthly energy consumption data per power plant for a subset of the power plants in the U.S. (the ones who were presented with and returned the survey on that month).  The units are MMBTUs (one million British Thermal Units).  As of now, I only have power plants for coal and natural gas.  I will add power plants for petroleum.  I have the raw data for petroleum in the same JSON file that gave me the data in this map.  The power plants are colored and sized based on the energy being consumed from a particular plant.  The tab for this map allows the user to choose what year and month to look at and what energy source they are interested in viewing.  If the user clicks on a particular plant, a popup graph will show a time series of the energy consumption for that plant (for the chosen fuel type).
