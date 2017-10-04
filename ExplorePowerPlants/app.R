@@ -157,7 +157,7 @@ ui <- fluidPage(
                                ),
                                selectInput("emission", "Emission Type:",
                                            c("Carbon Dioxide" = "CO2..Metric.Tons.",
-                                             "Sulfer Dioxide" = "SO2..Metric.Tons.",
+                                             "Sulfur Dioxide" = "SO2..Metric.Tons.",
                                              "Nitrogen Oxides" = "NOx..Metric.Tons."
                                            )
                                ),
