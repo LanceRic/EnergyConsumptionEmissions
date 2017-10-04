@@ -1,0 +1,28 @@
+Log
+
+10/3/17
+
+Inside PowerShell perform following commands:
+
+echo "# EnergyConsumptionEmissions-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/LanceRic/EnergyConsumptionEmissions-.git
+git push -u origin master
+
+
+I then dragged my shiny app folder into the EnergyConsumptionEmissions directory in my desktop folder and ran the following command
+git add .\ExplorePowerPlants\
+
+
+I then created the current log.tx file that I am currently typing in and ran the following command
+git add .\log.txt
+
+
+Then I committed the above changes and pushed the add ons to the repo
+git commit
+git push
+
+Rename repo. I accidentally put a "-" at the end
+git remote set-url origin git@github.com:LanceRic/EnergyConsumptionEmissions.git
